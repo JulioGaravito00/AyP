@@ -5,8 +5,8 @@ public class ProgramEvalueChain{
 	private boolean binary;
 
 	public int searchCharacter(String frase, char simbolo){ 
-	int totalCharacter = 0;
-	for(int i = 0; i < frase.length(); i++){
+		int totalCharacter = 0;
+		for(int i = 0; i < frase.length(); i++){
 			if(frase.charAt(i) == simbolo){
 				totalCharacter++;
 			}
